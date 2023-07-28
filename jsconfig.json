@@ -4,14 +4,33 @@
         "jsx": "preserve",
         "checkJs": true,
         "paths": {
-            "@assets/*" : ["/src/assets/*"],
-            "@components/*": ["/src/components/*"],
-            "@ui": ["/src/components/ui"],
-            "@context": ["/src/context"],
-            "@utils": ["/src/utils"],
-            "@screens/*": ["/src/screens/*"],
-            "@api": ["/src/api"],
-            "@/*": ["/*"]
+          "@assets/*": [
+            "/src/assets/*"
+          ],
+          "@components/*": [
+            "/src/components/*"
+          ],
+          "@ui": [
+            "/src/components/ui"
+          ],
+          "@context": [
+            "/src/context"
+          ],
+          "@utils": [
+            "/src/utils"
+          ],
+          "@screens/*": [
+            "/src/screens/*"
+          ],
+          "@api": [
+            "/src/api"
+          ],
+          "@hooks": [
+            "/src/hooks"
+          ],
+          "@/*": [
+            "/*"
+          ]
         }
     },
 }

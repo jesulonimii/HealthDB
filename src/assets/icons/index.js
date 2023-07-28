@@ -1,5 +1,3 @@
-import Logo from "./icon.svg"
+export Logo from "./icon.svg";
+export NoNetwork from "./no-network.svg";
 
-export {
-    Logo,
-}

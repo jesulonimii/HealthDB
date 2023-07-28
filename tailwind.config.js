@@ -1,22 +1,22 @@
 /** @type {import('tailwindcss').Config} */
+
+
 module.exports = {
-  content: ["./App.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {
-      colors : {
-        x: {
-          blue: "#07135b"
-        },
-        primary: "#1f8318",
-      },
-      fontFamily: {
-        ['outfit']: ['Outfit-Regular'],
-        ['outfit-bold']: ['Outfit-Bold'],
-        ['outfit-medium']: ['Outfit-Medium'],
-        ['outfit-semibold']: ['Outfit-SemiBold'],
-      }
-    },
-  },
-  plugins: [],
-}
+	content: ["./app/**/*.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}"],
+	theme: {
+		extend: {
+			colors: {
+				primary: "#010066",
+				info: "#045da6",
+				success: "#1f8318",
+				danger: "#d32f2f",
+				error: "#d32f2f",
+				warning: "#ffa000",
+			},
+			fontFamily: {
+				["out"outfit""out"outfit"			["out"outfit-bold""out"outfit-bold"	,	},
+		},
+	},
+	plugins: [],
+};
 

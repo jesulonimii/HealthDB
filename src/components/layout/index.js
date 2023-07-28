@@ -1,3 +1,2 @@
-import Body from "./Body";
-
-export { Body };
+export Body from "./Body";
+export Header from "./Header";
