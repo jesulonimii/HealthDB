@@ -14,9 +14,10 @@ module.exports = {
 				warning: "#ffa000",
 			},
 			fontFamily: {
-				["out"outfit""out"outfit"			["out"outfit-bold""out"outfit-bold"	,	},
+				outfit: ["outfit"],
+			},
 		},
+		plugins: [],
 	},
-	plugins: [],
 };
 

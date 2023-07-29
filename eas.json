@@ -3,20 +3,21 @@
     "version": ">= 3.10.0"
   },
   "build": {
-    "preview": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
       "android": {
         "buildType": "apk"
       }
     },
-    "preview2": {
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
       "android": {
-        "gradleCommand": ":app:assembleRelease"
+        "buildType": "apk"
       }
-    },
-    "preview3": {
-      "developmentClient": true
-    },
-    "production": {}
+    }
   },
   "submit": {
     "production": {}

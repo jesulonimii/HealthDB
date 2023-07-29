@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "HealthDB",
+    "name": "OAU Health Centre",
     "slug": "HealthDB",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -39,6 +39,9 @@
     },
     "updates": {
       "url": "https://u.expo.dev/887f3a90-4fc7-41a4-b3e9-234b2f940f43"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
